@@ -16,6 +16,7 @@ function verificarIntento(){
     let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
     if (numeroDeUsuario == numeroSecreto){
     asignarTextoElemento('p',`Acertaste el número en ${intentos} ${intentos == 1 ? 'vez' : 'veces'}`);
+    window.location.href = 'https://www.linkedin.com/in/pedrobacacisneros';
     document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
     //el usuario no acertó
